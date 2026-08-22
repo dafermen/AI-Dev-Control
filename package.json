@@ -1,0 +1,26 @@
+{
+  "name": "ai-dev-control",
+  "version": "0.2.0",
+  "private": true,
+  "type": "module",
+  "description": "Human-controlled local platform for observable AI software development.",
+  "scripts": {
+    "dev": "tsx server.ts --host 127.0.0.1 --port 5182",
+    "build": "tsc --noEmit && vite build",
+    "start": "cross-env NODE_ENV=production tsx server.ts --host 127.0.0.1 --port 5182"
+  },
+  "dependencies": {
+    "@vitejs/plugin-react": "latest",
+    "vite": "latest",
+    "react": "latest",
+    "react-dom": "latest"
+  },
+  "devDependencies": {
+    "@types/node": "latest",
+    "@types/react": "latest",
+    "@types/react-dom": "latest",
+    "cross-env": "latest",
+    "tsx": "latest",
+    "typescript": "latest"
+  }
+}
