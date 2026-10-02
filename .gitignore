@@ -2,3 +2,8 @@ node_modules/
 dist/
 .data/
 *.log
+
+# Private environment settings
+.env
+.env.*
+!.env.example

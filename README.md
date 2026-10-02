@@ -19,3 +19,11 @@ The first benchmark will be an original lightweight RTS inspired by classic RTS 
 
 ## Prime directive
 No AI agent may silently expand an approved task.
+
+## Portfolio demo access
+
+[Open the protected demo](https://aidevcontrol.innovalogic.tech/). The external test-server
+gateway supports optional `DEMO_MODE` and private `DEMO_PASSWORD` settings.
+See [configuration and limits](docs/DEMO_MODE.md) and the
+[secret-free env template](deploy/demo-access/.env.example). These settings belong
+to the server gateway; the local application does not read them automatically.

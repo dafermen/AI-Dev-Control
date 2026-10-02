@@ -1,0 +1,6 @@
+{
+  "aidevcontrol.innovalogic.tech": {
+    "name": "AI Dev Control",
+    "envFile": ".env"
+  }
+}
